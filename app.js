@@ -28,7 +28,7 @@ app.use(cors(
 
 
 //usig middleware
-app.use("/api/v1",user_router);
+app.use("/api/v1/user",user_router);
 app.use("/api/v1/task",taskrouter);
 
 
